@@ -6,8 +6,8 @@ namespace Work
 {
     public class Program
     {
-        private const string token = "wV0aCHQyyU4bRE9y0WNpgm9Gv11yLerQF3bhSVbt9BXJCEGVVd4HMaxQkDmmjj2B";
-        private const string secretKey = "zHUrQIopoxRj7amjSvrYVHAE5IUQHGgsAt8Z1knETYXkmnQgLdQgdVUOC1DWWffT";
+        private const string token = "";
+        private const string secretKey = "";
         static async Task Main(string[] args)
         {
             BaseRequest request = new BaseRequest(token,secretKey);
